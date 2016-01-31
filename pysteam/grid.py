@@ -3,7 +3,7 @@
 import os
 import shutil
 
-import paths
+from . import paths
 
 VALID_EXTENSIONS = [
   '.png',

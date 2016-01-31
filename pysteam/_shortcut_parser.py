@@ -10,7 +10,7 @@ import sys
 import os
 import re
 
-from model import Shortcut
+from .model import Shortcut
 
 class ShortcutParser(object):
 

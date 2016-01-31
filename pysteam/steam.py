@@ -4,10 +4,10 @@ import collections
 import os
 import platform
 
-import paths
-import winutils
+from . import paths
+from . import winutils
 
-from model import LocalUserContext, Steam
+from .model import LocalUserContext, Steam
 
 def get_steam():
   """
